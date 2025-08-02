@@ -1,0 +1,71 @@
+{
+	// ------------------------------------------------------
+	// set up windows style
+	"workbench.startupEditor": "none",
+	"window.menuBarVisibility": "toggle",
+	"editor.minimap.enabled": false,
+	"workbench.statusBar.visible": false,
+	"workbench.activityBar.location": "hidden",
+	"workbench.editor.showTabs": "none",
+	"workbench.sideBar.location": "right",
+	"breadcrumbs.enabled": false,
+	"symbols.hidesExplorerArrows": true,
+	"workbench.tree.enableStickyScroll": false,
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.tree.indent": 16,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	// ------------------------------------------------------
+	// set up terminal cursor
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorStyleInactive": "line",
+	"terminal.integrated.cursorBlinking": true,
+	// ------------------------------------------------------
+	// terminal set up
+	"terminal.integrated.fontSize": 16,
+	// ------------------------------------------------------
+	// editor set up
+	"editor.fontFamily": "Geist Mono, JetBrains Mono, FiraCode Nerd Font",
+	"editor.stickyScroll.enabled": false,
+	"editor.suggestFontSize": 16,
+	"editor.suggestLineHeight": 30,
+	"editor.padding.top": 16,
+	"editor.tabSize": 4,
+	"prettier.useTabs": true,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.snippetSuggestions": "top",
+	// ------------------------------------------------------
+	// set up editor cursor
+	"editor.cursorStyle": "block",
+	"editor.cursorBlinking": "solid",
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#ffb6c1" // 设置光标颜色
+	},
+	// ------------------------------------------------------
+	// set up icon & color theme
+	"workbench.iconTheme": "symbols",
+	"workbench.colorTheme": "React Theme",
+	// ------------------------------------------------------
+	// file auto save & OnSave format
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true,
+	// ------------------------------------------------------
+	// set up default formatter
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	// ------------------------------------------------------
+	// pluging set up
+	// import js & css
+	"vscode_custom_css.imports": [
+		"file:///d:/Scoop/apps/vscode/1.100.1/data/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js",
+		"file:///d:/WinDots/.config/vscode/custom-vscode.css",
+		"file:///d:/WinDots/.config/vscode/vscode-script.js"
+	],
+	// animations
+	"animations.CursorAnimation": true,
+	"animations.CursorAnimationOptions": {
+		"Color": "#ffb6c1",
+		"TrailLength": 8
+	}
+}
